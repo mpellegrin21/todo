@@ -1,4 +1,5 @@
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,40 +21,41 @@
     </header>
 
 
-            <form>
-                        
-                        <ul>
-                                        <label><input class="searchfield" type="text" value="What needs to be done?"></label>
+    <form>
+        <label><input class="searchfield" type="text" value="What needs to be done?"></label>
 
-                                <li>
-                                    <label>
-                                        <input type="checkbox" name="todo" value="milch" id="todo1">
-                                        Milk
-                                    </label>
-                                </li>
+        <ul class="todo-list">
 
-                                        <li>
-                                            <label>
-                                                <input type="checkbox" name="todo" value="wasser" id="todo2">
-                                                Water
-                                            </label>
-                                        </li>
+            <li class="todo-list__item">
+                <label>
+                    <input type="checkbox" name="todo" value="milch" class="todo-list__check">
+                    Milk
+                </label>
+            </li>
 
-                                                <li>
-                                                    <label>
-                                                        <input type="checkbox" name="todo" value="orangensaft" id="todo3">
-                                                        Orange Juice
-                                                    </label>
-                                                </li>
+            <li class="todo-list__item">
+                <label>
+                    <input type="checkbox" name="todo" value="wasser" class="todo-list__check">
+                    Water
+                </label>
+            </li>
 
-                                                        <li>
-                                                            <label>
-                                                                <input type="checkbox" name="todo" value="whatever" id="todo4">
-                                                                Whatever
-                                                            </label>
-                                                        </li>
+            <li class="todo-list__item">
+                <label>
+                    <input type="checkbox" name="todo" value="orangensaft" class="todo-list__check">
+                    Orange Juice
+                </label>
+            </li>
 
-                         </ul>
-                </form>
-    </body>
+            <li class="todo-list__item">
+                <label>
+                    <input type="checkbox" name="todo" value="whatever" class="todo-list__check">
+                    Whatever
+                </label>
+            </li>
+
+        </ul>
+    </form>
+</body>
+
 </html>
